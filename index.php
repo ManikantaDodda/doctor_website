@@ -52,31 +52,31 @@
                                 <div
                                     style="padding: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
                                     <p
-                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="index.html">Home</a></p>
+                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="index.php">Home</a></p>
                                 </div>
                                 <div style="width: 4px;"></div>
                                 <div
                                     style="padding: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
                                     <p
-                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="about.html">About</a></p>
+                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="about.php">About</a></p>
                                 </div>
                                 <div style="width: 4px;"></div>
                                 <div
                                     style="padding: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
                                     <p
-                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="services.html">Our Services</a> </p>
+                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="services.php">Our Services</a> </p>
                                 </div>
                                 <div style="width: 4px;"></div>
                                 <div
                                     style="padding: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
                                     <p
-                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="one.html">patient education</p>
+                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="one.php">patient education</p>
                                 </div>
                                 <div style="width: 4px;"></div>
                                 <div
                                     style="padding: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
                                     <p
-                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="contact.html">Contact</a></p>
+                                        style="font-size: 14px; font-weight: 500; line-height: 100%; text-align: right; color: white; text-transform: uppercase;"><a href="contact.php">Contact</a></p>
                                 </div>
                             </div>
                             <div style="width: 147.48px;"></div>
