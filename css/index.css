@@ -83,3 +83,88 @@ textarea:focus-visible,
 select:focus-visible {
     outline: none;
 }
+
+/* Modal Container Styles */
+.modal-container {
+    position: fixed; /* Fix the modal on the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center; /* Center modal vertically */
+    justify-content: center; /* Center modal horizontally */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+/* Modal Styles */
+.modal {
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Header */
+.modal-header {
+    background-color: #08749B;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Modal Content */
+.modal-content {
+    padding: 20px;
+}
+
+/* Input Row */
+.input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-row label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-row .input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Modal Actions */
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal-actions .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-actions .btn-primary {
+    background-color: #009746;
+    color: white;
+}
+
+.modal-actions .btn-danger {
+    background-color: #C50000;
+    color: white;
+}
+
+/* modal */
