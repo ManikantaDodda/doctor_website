@@ -22,10 +22,6 @@
     flex: 1;
     position: relative;
 }
- .doctor-video {
-    object-fit: cover;
-}
-
 .section__content {
     display: flex;
     align-items: center;
@@ -41,9 +37,10 @@
 }
 
 .section__content-image {
-    height: 376px;
-    width: 462px;
+    height: 464px;
+    width: 276px;
     object-fit: contain;
+    top: 15px;
 }
 
 .section__content-column {
@@ -84,10 +81,11 @@
 
 .doctor-video {
     height: 100%;
-    width: 55%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    width: 57%;
     object-fit: cover;
+    transform: scaleX(-1); 
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -103,5 +101,7 @@
     .doctor-video {
         width: 100%;
         border-radius: 0;
+        transform: scaleX(-1);
     }
 }
+
