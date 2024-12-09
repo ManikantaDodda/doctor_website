@@ -1,0 +1,22 @@
+
+.education-section { display: flex; flex-direction: column; align-items: flex-start;
+  margin: auto;
+  }
+  .group-519 {
+  display:  grid;
+  gap: var(--space-5x1);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  padding: 86px 250px;
+  }
+ 
+  @media only screen and (max-width: 1050px) {
+    .group-519 {
+     grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 20px;
+    }
+  }
+  @media only screen and (max-width: 550px) { 
+    .group-519 {
+    grid-template-columns: repeat (1, minmax(0, 1fr));
+    }
+  }
