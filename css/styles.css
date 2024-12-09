@@ -33,12 +33,12 @@
     --radius-md: 12px;
     --radius-lg: 16px;
     --radius-xl: 18px;
-    --radius-2x1: 20px;
-    --radius-3x1: 30px;
-    --radius-4x1: 50px;
-    --radius-5x1: 80px;
-    --radius-6x1: 86px;
-    --radius-7x1: 100px;
+    --radius-2xl: 20px;
+    --radius-3xl: 30px;
+    --radius-4xl: 50px;
+    --radius-5xl: 80px;
+    --radius-6xl :86px;
+    --radius-7xl: 100px;
     /*------Spacing variables-
 -*/
     --space-xs: 2px;
@@ -46,23 +46,33 @@
     --space-md: 8px;
     --space-lg: 12px;
     --space-xl: 14px;
-    --space-2x1: 16px;
-    --space-3x1: 18px;
-    --space-4x1: 22px;
-    --space-5x1: 24px;
-    --space-6x1: 26px;
-    --space-7x1: 28px;
-    --space-8x1: 32px;
-    --space-9x1: 36px;
-    --space-10x1: 38px;
-    --space-11x1: 40px;
-    --space-12x1: 42px;
-    --space-13x1: 46px;
-    --space-14x1: 54px;
-    --space-15x1: 60px;
+    --space-2xl: 16px;
+    --space-3xl: 18px;
+    --space-4xl: 22px;
+    --space-5xl: 24px;
+    --space-6xl: 26px;
+    --space-7xl: 28px;
+    --space-8xl: 32px;
+    --space-9xl: 36px;
+    --space-10xl: 38px;
+    --space-11xl: 40px;
+    --space-12xl: 42px;
+    --space-13xl: 46px;
+    --space-14xl: 54px;
+    --space-15xl: 60px;
 }
 
-
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
 .flex-col-center-center {
     display: flex;
     flex-direction: column;
@@ -526,9 +536,9 @@ margin-right: 0px;
     }
     .knee-replacement-info {
     gap: var(--space-sm); display: flex;
-    background-color: var(--cyan_800);
     width: 100%;
     flex-direction: column;
+    padding: 20px;
     }
     .knee-replacement-info___image {
     height: 168px;
@@ -536,18 +546,22 @@ margin-right: 0px;
     }
 
     
-.knee-replacement-info__content {
+.knee-replacement-info_content {
     margin-bottom: 6px;
     margin-left: 30px; margin-right: 30px;
     gap: var(--space-sm);
     display: flex;
     flex-direction: column; align-items: flex-start;
+    background-color: var(--cyan_800);
+   
+    }
     @media only screen and (max-width: 1050px) {
-    margin-left: 0px;
-    margin-right: 0px;
-    }
-    }
-    .knee-replacement-info__title {
+        .knee-replacement-info_content {
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+        }
+    .knee-replacement-info_title {
         color: var(--white_a700) !important; line-height: 24px;
     }
     .knee-replacement-info_description {

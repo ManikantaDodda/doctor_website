@@ -20,3 +20,98 @@
     grid-template-columns: repeat (1, minmax(0, 1fr));
     }
   }
+  .education-section2 {
+    position: relative;
+    min-height: 542px; /* Ensure enough space for at least two rows */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0; /* Add padding to accommodate rows */
+  }
+  
+  .education-container {
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+    overflow: visible; /* Ensure overflowing content is visible */
+  }
+  
+  /* Background Image */
+  .background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Cards Container */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+    gap: 44px;
+    width: 100%;
+    padding: 200px; /* Padding around the grid */
+  }
+  
+  /* Education Card */
+  .education-card {
+    max-width: 297px;
+    height: 290px;
+    background-color: rgba(8, 116, 155, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 9px;
+    border-radius: 10px  ;
+    -webkit-border-radius: 10px  ;
+    -moz-border-radius: 10px  ;
+    -ms-border-radius: 10px  ;
+    -o-border-radius: 10px  ;
+}
+  
+  .education-card .card-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+}
+  
+  .education-card .card-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .education-card .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+  
+  .education-card .card-description {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+      padding: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .cards-container {
+      grid-template-columns: 1fr; /* One card per row */
+      padding: auto;
+    }
+    
+  }
+  
